@@ -39,6 +39,7 @@ cd MERN-Blog
 3. Install server dependencies:
 ```
 npm install
+npm install --save whatwg-fetch    => package that supports fetch req(client dir)
 ```
 
 4. Install frontend dependencies
@@ -56,7 +57,7 @@ npm install -D concurrently nodemon  => tool that allows to run multiple command
 ### Usage
 1. Start the server:
 ```
-navigate to root dir
+- navigate to root dir
 npm start server
 ```
 
@@ -74,13 +75,14 @@ npm run dev
 4. Open your web browser and go to **http://localhost:3000** to access the application.
 
 
+
 ### Folder Structure
 The project is organized as follows:
 
-frontend: Frontend React application
-node_modules: dependency files
-public: Public assets for the client
-server.js: Backend Express.js application
+* frontend: Frontend React application
+* node_modules: dependency files
+* public: Public assets for the client
+* server.js: Backend Express.js application
 
 
 
