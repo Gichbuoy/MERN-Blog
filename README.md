@@ -84,7 +84,7 @@ public: Public assets for the client
 docs: Documentation files (README, images, etc.)
 
 ### Technologies Used
-- Frontend:
+Frontend:
 
 * React
 * React Router
@@ -92,7 +92,7 @@ docs: Documentation files (README, images, etc.)
 * Axios (for making API requests)
 * Markdown-to-HTML conversion library (e.g., marked)
 
-- Backend:
+Backend:
 
 * Express.js
 * MongoDB (via Mongoose)
