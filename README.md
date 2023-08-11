@@ -31,9 +31,9 @@ MongoDB for data storage, Express.js for server-side logic, React for the front 
 ### Getting Started
 Follow these instructions to get the project up and running on your local machine for development and testing purposes.
 
-Prerequisites
-Node.js and npm installed (Download and install from Node.js official website)
-MongoDB installed and running (Download and installation instructions can be found on the MongoDB website)
+### Prerequisites
+Node.js and npm installed (Download and install from **Node.js official website**)
+MongoDB installed and running (Download and installation instructions can be found on the **MongoDB website**)
 
 ### Installation
 1. Clone this repository to your local machine using:
@@ -48,31 +48,40 @@ cd MERN-Blog
 
 3. Install server dependencies:
 ```
-cd server
 npm install
 ```
 
 4. Install frontend dependencies
 ```
-cd ../client
-npm install
+cd frontend
+npm install -D tailwindcss
+npx tailwindcss init -p => Install tailwindcss via npm, and then run the init command to generate your tailwind.config.js file.
+npm install --save react-router-dom => for navigating pages
+npm init -y => initialize node package
+npm install express
+npm install -D concurrently nodemon  => tool that allows to run multiple commands 	concurrently to start both front and backend
 ```
 
 
 ### Usage
 1. Start the server:
 ```
-cd server
-npm start
+navigate to root dir
+npm start server
 ```
 
-2. Start the client
+2. Start the client/frontend
 ```
-cd client
-npm start
+cd frontend
+npm run frontend
 ```
 
-3. Open your web browser and go to **http://localhost:3000** to access the application.
+3. To start both frontend and backend concurrently
+```
+npm run dev
+```
+
+4. Open your web browser and go to **http://localhost:3000** to access the application.
 
 
 ### Folder Structure
