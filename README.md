@@ -16,13 +16,13 @@ License
 
 
 ### Features
-User authentication and authorization (Sign Up, Sign In, Sign Out) using JSON Web Tokens (JWT)
-Create, edit, and delete blog posts
-View a list of all blog posts on the homepage
-Responsive design for seamless user experience on various devices
-Comments section for each blog post
-Markdown support for writing blog content
-User-friendly interface for managing blog posts
+Building an extensive backend API with Node.js and Express.
+Extensive API testing with Postman.
+Integrating React with the backend in an elegant way, creating a great workflow.
+Building the frontend to work with the API.
+GET and POST request using MongoDB.
+
+
 RESTful API design for backend operations
 Error handling and validation to ensure data integrity
 MongoDB for data storage, Express.js for server-side logic, React for the front end, and Node.js for the runtime environment
