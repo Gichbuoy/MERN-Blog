@@ -87,25 +87,27 @@ npm run dev
 ### Folder Structure
 The project is organized as follows:
 
-client: Frontend React application
-server: Backend Express.js application
+frontend: Frontend React application
+node_modules: dependency files
 public: Public assets for the client
-docs: Documentation files (README, images, etc.)
+server.js: Backend Express.js application
+
+
 
 ### Technologies Used
 Frontend:
 
 * React
 * React Router
-* Redux (optional, for state management)
-* Axios (for making API requests)
-* Markdown-to-HTML conversion library (e.g., marked)
+* ES6+
+* Postman (for making API requests)
+* Tailwind CSS
 
 Backend:
 
 * Express.js
-* MongoDB (via Mongoose)
-* JSON Web Tokens (JWT) for authentication
+* Node.js
+* MongoDB (via Mongodb Compass && Mongoose)
 
 
 ### Contributing
