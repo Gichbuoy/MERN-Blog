@@ -1,5 +1,6 @@
 # MERN Blog
 Welcome to the Fullstack Blog Application built using the MERN (MongoDB, Express.js, React, Node.js) stack! 
+- I build this simple MERN blog inorder to get an understanding of how the MERN stack works and to apply the concepts I learnt.
 - The MERN stack is a powerful combination of technologies that allows for efficient development of fullstack web applications.
 
 
