@@ -27,7 +27,7 @@ Node.js and npm installed (Download and install from **Node.js official website*
 MongoDB installed and running (Download and installation instructions can be found on the **MongoDB website**)
 
 ### Installation
-1. Clone this repository to your local machine using:
+1. Clone this repository in your local machine using:
 ```
 git clone https://github.com/Gichbuoy/MERN-Blog.git
 ```
